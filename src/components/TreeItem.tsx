@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronRight, ChevronDown, File, Folder, FolderOpen, Edit2, Trash2, Check, X, FilePlus, FolderPlus } from 'lucide-react';
+import { ChevronRight, ChevronDown, File, Folder, Edit2, Trash2, Check, X, FilePlus, FolderPlus } from 'lucide-react';
 import type { FileNode } from '../types';
 
 interface TreeItemProps {

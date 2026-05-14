@@ -2,7 +2,6 @@ import React from 'react';
 import { FilePlus, FolderPlus } from 'lucide-react';
 import TreeItem from './TreeItem';
 import { useFileTree } from '../hooks/useFileTree';
-import type { FileNode } from '../types';
 
 const FileExplorer: React.FC = () => {
   const { tree, addFile, addFolder, removeNode, renameNode } = useFileTree([
